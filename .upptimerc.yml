@@ -1,31 +1,28 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Uptime monitoring and public status page for camtoan.me
+# Docs: https://upptime.js.org/docs/configuration
+owner: camtoan-do
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Website
+    url: https://camtoan.me
+  - name: Blog
+    url: https://camtoan.me/blog/
+  - name: Certifications
+    url: https://camtoan.me/certifications/
+  - name: security.txt
+    url: https://camtoan.me/.well-known/security.txt
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.camtoan.me
+  logoUrl: https://camtoan.me/favicon.svg
+  name: Cam Toan Do — Status
+  introTitle: "**camtoan.me** system status"
+  introMessage: Live uptime and response times for camtoan.me, checked every 5 minutes by GitHub Actions. Incidents are opened and closed automatically as GitHub issues.
   navbar:
     - title: Status
       href: /
+    - title: Website
+      href: https://camtoan.me
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
