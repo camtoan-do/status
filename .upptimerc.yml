@@ -8,8 +8,8 @@ sites:
     url: https://camtoan.me
   - name: Blog
     url: https://camtoan.me/blog/
-  - name: Certifications
-    url: https://camtoan.me/certifications/
+  - name: About
+    url: https://camtoan.me/about/
   - name: security.txt
     url: https://camtoan.me/.well-known/security.txt
 
