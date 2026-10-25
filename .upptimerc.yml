@@ -1,28 +1,28 @@
-# Uptime monitoring and public status page for camtoan.me
+# Uptime monitoring and public status page for kamllistos.com
 # Docs: https://upptime.js.org/docs/configuration
 owner: camtoan-do
 repo: status
 
 sites:
   - name: Website
-    url: https://camtoan.me
+    url: https://kamllistos.com
   - name: Blog
-    url: https://camtoan.me/blog/
+    url: https://kamllistos.com/blog/
   - name: About
-    url: https://camtoan.me/about/
+    url: https://kamllistos.com/about/
   - name: security.txt
-    url: https://camtoan.me/.well-known/security.txt
+    url: https://kamllistos.com/.well-known/security.txt
 
 status-website:
   cname: status.camtoan.me
-  logoUrl: https://camtoan.me/favicon.svg
-  name: Cam Toan Do — Status
-  introTitle: "**camtoan.me** system status"
-  introMessage: Live uptime and response times for camtoan.me, checked every 5 minutes by GitHub Actions. Incidents are opened and closed automatically as GitHub issues.
+  logoUrl: https://kamllistos.com/icon.png
+  name: Kamllistos — Status
+  introTitle: "**Kamllistos** system status"
+  introMessage: Live uptime and response times for kamllistos.com, checked every 5 minutes by GitHub Actions. Incidents are opened and closed automatically as GitHub issues.
   navbar:
     - title: Status
       href: /
     - title: Website
-      href: https://camtoan.me
+      href: https://kamllistos.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
