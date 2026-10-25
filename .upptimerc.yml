@@ -1,6 +1,6 @@
 # Uptime monitoring and public status page for kamllistos.com
 # Docs: https://upptime.js.org/docs/configuration
-owner: camtoan-do
+owner: kamllistos
 repo: status
 
 sites:
